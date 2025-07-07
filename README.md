@@ -1,7 +1,7 @@
 # case-study
 
 # Order Management System
-A microservice-based Spring Boot application that manages product inventory and order processing in an e-commerce platform.
+A microservice based Spring Boot application that manages product inventory and order processing in an e-commerce platform.
 
 # Overview
 This system replaces a monolithic Order Management System with a scalable microservice that:
