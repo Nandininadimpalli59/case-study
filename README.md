@@ -28,13 +28,13 @@ This system replaces a monolithic Order Management System with a scalable micros
 - git push -u origin main
 
 # DDL Commands
-CREATE TABLE product_inventory (
+- CREATE TABLE product_inventory (
     product_id BIGINT PRIMARY KEY,
     product_name VARCHAR(100) NOT NULL,
     quantity INT NOT NULL
 );
 
-CREATE TABLE orders (
+- CREATE TABLE orders (
     order_id BIGINT PRIMARY KEY AUTO_INCREMENT,
     product_id BIGINT,
     quantity INT,
