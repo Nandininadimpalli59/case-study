@@ -1,6 +1,6 @@
 # case-study
 
-# Order Management System (Spring Boot)
+# Order Management System
 A microservice-based Spring Boot application that manages product inventory and order processing in an e-commerce platform.
 
 # Overview
@@ -20,12 +20,12 @@ This system replaces a monolithic Order Management System with a scalable micros
 - Lombok
 
 # Git Instructions
-git init
-git remote add origin https://github.com/your-username/OrderManagementSystem.git
-git add .
-git commit -m "Order Management System Initial commit"
-git branch main
-git push -u origin main
+- git init
+- git remote add origin https://github.com/your-username/OrderManagementSystem.git
+- git add .
+- git commit -m "Order Management System Initial commit"
+- git branch main
+- git push -u origin main
 
 # DDL Commands
 CREATE TABLE product_inventory (
